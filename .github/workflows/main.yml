@@ -21,4 +21,4 @@ jobs:
       with:
         ftp-server: ftp://43.255.154.8
         ftp-username: pipeline@savanvaghasiya.info
-        ftp-password: ${{ secrets.FTP_STAGING_PASSWORD }}
+        ftp-password: pipeline@123
