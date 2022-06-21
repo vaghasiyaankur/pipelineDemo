@@ -17,7 +17,7 @@ jobs:
         fetch-depth: 2
         
     - name: FTP Deploy to WP Engine (Staging)
-      uses: ./
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         ftp-server: ftp://43.255.154.8
         ftp-username: pipeline@savanvaghasiya.info
